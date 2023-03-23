@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    <!-- navbar start -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="#home"> 
+                <img src="images/gym_logo.png" alt="logo" width="80px">
+            </a>
+        </div>
+        <!-- Menu Links -->
+        <div class="menu">
+            <ul>
+                <li> <a href="#home">Home</a> </li>
+                <li> <a href="#About us">About us</a> </li>
+                <li> <a href="#book"> Book Free Class</a> </li>
+                <li> <a href="#subscription"> Subscription Plans</a> </li>
+                <li> <a href="#contact"> Contact Us</a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- Banner start -->
+    <div id="home" class="banner ">
+        <div class="btext">
+            <h1>Make Your Body Shape</h1>
+            <p>We are here to help you to build and shape your ideal Body and live your life to the fullest</p>
+            <button type="button" onclick="window.location.href ='About us'">Get Started</button>         
+        </div>
+        <div class="bimage"> 
+            <img src="images/banner_image1.png" alt="frontend" >
+        </div>
+    </div>
+    <!-- Banner end -->
+
+    <!-- About us start -->
+    <div id="About us" class="About">
+        <div class="eheading" >
+            <h2>About us</h2>
+        </div>
+        <div class="test"> 
+            <div class="provides">
+                <img src="images/lifting_area.jpg" alt="Dedicated Lifting Area" height="400" width="400">
+                <h3>Dedicated Lifting Area</h3>
+                <p>We have an extensive lifting and weights area including free weights, squat racks, and dedicated lift machines.</p>
+            </div>
+            <div class="provides">
+                <img src="images/boxingarea.jpg" alt="Boxing & Crossfit Area" height="700" width="700">
+                <h3>Boxing & Crossfit Area</h3>
+                <p>Enjoy our boxing, cardio, and crossfit areas. Work out on your own time or join in with our daily classes.</p>
+            </div>
+            <div class="provides">
+                <img src="images/cardio.jpg" alt="Full Cardio & Core Area" height="170" width="170">
+                <h3>Full Cardio & Core Area</h3>
+                <p>Enjoy our full cardio and fitness workout space. Create your own workout with all the equipment you might need already provided.</p>
+            </div>
+        </div>    
+        <div class="test"> 
+            <div class="provides">
+                <img src="images/friendlygym.jpg" alt="Friendly Gym Environment" height="300" width="300">
+                <h3>Friendly Gym Environment</h3>
+                <p>If you are an experienced gym user or its just your first time - don't worry. Our gym environment is friendly.</p>
+            </div>
+            
+            <div class="provides">
+                <img src="images/fitness_sessions.jpg" alt="Classes & Fitness Sessions" height="700" width="700">
+                <h3>Classes & Fitness Sessions</h3>
+                <p>Drop in or follow along with our fitness classes: Crossfit, Body Jump, Boxing, Yoga, and more.</p>
+            </div class="provides">
+
+            <div class="provides">
+                <img src="images/gymtrainer.jpg" alt="Personal Trainers" height="170" width="170">
+                <h3>Personal Trainers</h3>
+                <p>Get professional guidance from our certified instructors. We always have professional trainers available and ready to help.</p>
+            </div>
+        </div>   
+        <div style="text-align: center;">
+            <button type="button" onclick="window.location.href ='#contact'"> For More Information</button>
+        </div> 
+    </div>
+    
+    <!-- Service end -->
+
+    <!-- Extra Curricular start -->
+    <div class="OurTeam">
+        <div class="cheading">
+            <h2>Our Team</h2>
+        </div>
+        <div class="cmainbox">
+            <div class="cbox">
+                <h4>Joe Bloggs</h4>
+                <p>Weight lifting coach</p>
+            </div>
+            <div class="cbox">
+                <h4>Charlie Watson</h4>
+                <p>MMA Coach</p>
+            </div>
+            <div class="cbox">
+                <h4>Rachel Daniell</h4>
+                <p>Yoga instructor</p>
+            </div>
+        </div>
+    </div>
+    <!-- Extra Curricular end -->
+
+
+    <!-- subs start -->
+    <div class="book">
+        <div id="book" class="aheading">
+            <h2>Book Free Class</h2>
+        </div>
+        <div class= ablock>
+            <div class="atext">
+                <form action="backend.php">
+                    <!-- <label for="name"> Name</label> -->
+                    <div>
+                        First Name: <input type="text" name="fname" id="fname">
+                    </div>
+                    <br>
+                    <div>
+                        Last Name: <input type="text" name="lname">
+                    </div>
+                    <br>
+                    <div>
+                        Email: <input type="email" name="myEmail">
+                    </div>
+                    <br>
+                    <div>
+                        Phone number <input type="text" name="myno">
+                    </div>
+                    <br>
+                    <div>
+                        Date of Birth: <input type="date" name="myDate">
+                    </div>
+                    <br>
+                    <!-- <div>
+                        Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+                    </div>
+                    <br> -->
+                    <div>
+                        Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+                        Other <input type="radio" name="myGender">
+                    </div>
+            
+                    <br>
+                    <!-- <div>
+                        Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+                    </div> -->
+            
+                    <!-- <div>
+                        <label for="car">Car</label>
+                        <select name="myCar" id="car">
+                            <option value="ind">Indica</option>
+                            <option value="swf" selected>Swift</option>
+                        </select>
+                    </div>
+                    <br> -->
+            
+                    <div>
+                        <input type="submit" value="Submit Now">
+                        <input type="reset" value="Reset Now">
+                    </div>
+                    <!-- <div style="text-align: center;">
+                        <button type="button" onclick="window.location.href ='#contact'"> For More Information</button>
+                    </div>  -->
+                </form>
+            </div>
+            <!-- <div class="aimage">
+                <img src="images/mohit.jpg" alt="Experience" >
+            </div> -->
+        </div>
+    </div>
+    <!-- Experience end -->
+
+    <!-- Scope start -->
+    <div class="subscription">
+        <div id=subscription class="sheading">
+            <h2> Subscription Plans</h2>
+        </div>
+        <div class="smainbox">
+            <div class="sbox">
+                <div class="stext">
+                <h3>3 Months</h3>
+                <h4>3000/-</h4>
+                <ul>
+                    <li>5 Classes</li>
+                    <li>5 In Personal Training Sessions</li>
+                    <li>Full Gym & Facilities Access</li>
+                    <li>Gym Tour & Training Instruction</li>
+                </ul>
+                </div>
+            </div>
+            <div class="sbox">
+                <div class="stext">
+                    <h3>6 Months</h3>
+                    <h4>5000/-</h4>
+                    <ul>
+                        <li>10 Classes</li>
+                        <li>10 In Personal Training Sessions</li>
+                        <li>Full Gym & Facilities Access</li>
+                        <li>Gym Tour & Training Instruction</li>
+                        <li>Boxing Ring, Free Events</li>
+                    </ul>
+                    </div>
+            </div>
+            <div class="sbox">
+                <div class="stext">
+                    <h3>1 Year</h3>
+                    <h4>7000/-</h4>
+                    <ul>
+                        <li>20 Classes</li>
+                        <li>15 In Personal Training Sessions</li>
+                        <li>Full Gym & Facilities Access</li>
+                        <li>Gym Tour & Training Instruction</li>
+                        <li>Boxing Ring, Free Events</li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scope end -->
+
+    <!-- Contact start -->
+    <div class= "contact">
+        <div id= "contact" class= "ctext"  >
+            <h2>Contact Me</h2>
+            <p>For detailed information kinldy contact</p>
+        </div> 
+        <div class="icons1">
+            <ul>
+                <li>   
+                    <img src="images/call.png">    
+                    <a href="tel:+91-8224977825" >+91-8224977825</a>
+                </li></br>    
+                <li>  
+                    <img src="images/skype.png">    
+                    <a href="https://join.skype.com/invite/sQlFokjaCBjH">Skype Me</a>
+                </li></br>
+                <li>    
+                    <img src="images/whatsapp.png">
+                    <a href="https://web.whatsapp.com/">Message Me</a>
+                </li>                    
+            </ul>
+        </div>
+        <div class="icons2">        
+            <ul>
+                <li>
+                    <img src="images/email.png">
+                    <a href="mailto:dhare.aashika8@gmail.com">dhare.aashika8@gmail.com</a> 
+                </li></br>
+                <li>    
+                    <img src="images/location.png">
+                    <a href="https://maps.app.goo.gl/kh4TyvzEfPEXad87A">Indore</a>
+                </li></br> 
+                <li>   
+                    <img src="images/linkedin.png">
+                    <a href="https://www.linkedin.com/in/aashika-dhare-24879b222">LinkedIn</a>
+                </li>   
+            </ul>
+        </div>
+        <div class="topbtn">
+            <a href="#home"> <img src="images/arrow-up.png"></a>
+        </div>
+    </div>
+    <!-- Contact end -->
+</body>
+</html>

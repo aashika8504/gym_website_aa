@@ -1,0 +1,510 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+h2{
+    font-size: 40px;
+}
+
+button{
+    background-color: #b7e04fdc;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: 4px 4px;
+}
+
+button:hover{
+    padding: 10px 15px;
+    background: #ffffff;
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color: #b7e04fdc;
+    display: flex;
+    /* overflow: hidden;
+    width: 100%; */
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    /* display: inline; */
+    /* padding: 15px; */
+    flex: 20%;
+    margin: 10px; 
+}
+
+.menu{
+    text-align:right ;
+    /* list-style-type: none; */
+    /* overflow: hidden; */
+    flex: 80%;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .menu > ul{
+    list-style-type: none;
+} */
+
+.menu > ul li{
+    list-style-type: none;
+    padding-right: 20px;  
+    display: inline;
+}
+
+.menu > ul li:hover{
+    background: #b7e04fdc;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+}
+
+.banner{
+    display: flex;
+    /* background-color: #000000; */
+    background-image: url(images/gym_banner1.jpg);
+    /* float: left;
+    width: 100%;
+    width: 100%;
+    height: auto; */
+    padding: 50px 0 100px;
+    text-align: center;
+    /* margin : 0px; */
+}
+
+.btext{
+    color: white;
+    flex: 40%;
+    /* float: left; */
+    /* padding-left: 50px; */
+    /* height: auto; */
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    align-items: end;
+    flex:60%;
+}
+
+/* .bimage{
+    float: right; 
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+} */
+
+.About{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.test{
+    display: flex;
+    padding: 40px;
+}
+
+.provides img{
+    max-width: 40%;
+    height: auto;
+}
+
+/* .eheading{
+    text-align: center;
+    flex-direction: column;
+}
+
+.provides{
+    display: inline-block; 
+    width: 100%;
+    float: left;
+    flex-direction: column;
+    /align-items: flex-start;
+    flex: 30%;
+}
+
+.provides > div img{
+    width: 100%; 
+    max-width: 50%;
+    height: auto;
+    flex-direction: column;
+    text-align: left;
+    flex: 30%;
+}
+
+.provides > div{
+    width: 30%;
+    float: left;  
+    height: auto;
+    flex-direction: column;
+    display: inline;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 30%;
+    flex-basis: auto;
+} */
+
+
+.OurTeam{
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.cmainbox{
+    display: flex;
+    margin: 40px;
+}
+
+.cmainbox div{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.33%;
+    border-left: 3px solid #b7e04fdc;
+    padding: 0 15px 0;
+    text-align: left;
+}
+
+
+/* .curricular{
+    display: flex;
+    flex-direction: column;
+}
+
+.cheading{
+    text-align: center;
+}
+
+.cmainbox{
+    float: left;
+    width: 100%;
+}
+
+.cbox{
+    width: 25%;
+    border-left: 3px solid red;
+    float: left;
+    margin: 47px;
+    height: 180px;
+}
+
+.cbox > h4 , .cbox > p{
+    padding-left: 15px;
+    text-align: left;
+    margin-top: 0%;
+} */
+
+.book{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* .aheading{
+    width: 100%;
+    float: left;
+    text-align: center;
+} */
+
+.ablock{
+    background: linear-gradient(to right, #b7e04fdc ,  #b4d16adc  45%,  #fcfffb 85%); 
+    width: 100%;
+    /* padding-left: 50px; */
+    /* float: left; */
+    height: auto;
+    display: flex;
+    padding: 40px;
+    text-align: center;
+} 
+
+.atext{
+    /* text-align: left;
+    width: 50%;
+    float: left;
+    padding: 40px; */
+    flex: 60%;
+    text-align: center;
+}
+
+.ablock img{
+    width: 40%;
+    height: auto;
+    align-items: end;
+    flex:40%;
+    margin-top: 20px;
+}
+
+/* .aimage{
+    float: right;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.aimage > img{
+    width: 100%;
+    max-width: 300px;
+} */
+
+/* .scope{
+    display: flex;
+    flex-direction:column
+    text-align: center; 
+}
+
+.smainbox{
+    float: left;
+    width: 100%;
+}
+
+.sbox{
+    padding: 20px;
+    width: 25%;
+    border-radius: 15px;
+    background: #37d8a7;
+    float: right;
+    margin: 47px;
+    height: 250px;
+} */
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+}
+
+.smainbox{
+    display: flex;
+}
+
+.sbox{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 31%;
+    padding: 20px;
+    width: 25%;
+    border-radius: 15px;
+    background: #000000;
+    margin: 15px;
+}
+.stext{
+    text-align: center;
+    color: #ffffff;
+}
+  
+.sbox:hover {
+    -ms-transform: scale(1.15); 
+    -webkit-transform: scale(1.15); 
+    transform: scale(1.15); 
+}
+
+
+/* 
+.contact{
+    display: flex;
+    width: 100%;
+    float: left; 
+    padding: 10px;
+    background-color: #f9dcc4;
+}
+
+.ctext{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.icons1{
+    width: 33.33%;
+    float: left;
+    padding-top: 25px;
+    padding-left: 85px;
+}
+
+.icons2{
+    width: 33.33%;
+    float: left;
+    padding-top: 25px;
+}
+
+.icons1 > ul{
+    list-style-type: none;
+}
+
+.icons2 > ul{
+    list-style-type: none;
+} 
+
+.icons1  > ul li img{
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.icons2  > ul li img{
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.topbtn{
+    float: right; 
+    border-radius: 20px;
+    background: red;
+    padding: 10px;  
+    width: 2%;
+   
+}
+
+.topbtn > a img{
+    width: 20px;
+    text-align:right
+} */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    background: #b7e04fdc;  
+}
+
+.ctext{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.icons1{
+    flex-basis: 45%;
+    padding-left: 50px;
+}
+
+.icons2{
+    flex-basis: 45% ;
+}
+
+.topbtn{
+    flex-basis: 5%;
+    align-items: flex-end;
+    text-align: end;
+    padding: 20px;
+}
+
+.topbtn img{
+    width: 100%;
+}
+
+.contact div ul{
+    list-style-type: none;
+}
+
+.icons1 img{
+    width: 7%;
+    height: auto;
+}
+
+.icons2 img{
+    width: 7%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px){
+    h2{
+        font-size: 20px;
+    }
+   
+    button{
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .logo img{
+        width: 40px;
+        flex:10%;
+    }
+
+    .menu{
+        display: inline;
+        text-align:left ;
+        flex: 90%; 
+        font-size: 14px;
+        /* margin: 4px; */
+        padding: 2px;
+        letter-spacing: 1px;
+    }
+    
+    .menu > ul li:hover{
+        padding-right: 1px;
+        border-radius: 5px;
+    }
+   
+    /* div{
+        font-size: 12px;
+        flex-direction: column;
+        text-align:center;
+    }
+
+    div.contact{
+        font-size: 12px;
+        flex-direction: column;
+        text-align:justify;
+    } */
+
+    .banner, .test, .cmainbox, .ablock, .smainbox, .contact, .navbar{
+        flex-direction: column;
+        text-align:center;
+        font-size: 12px;
+        flex: 100%;
+    }
+
+    .cmainbox div{
+        border-bottom: 3px solid red;
+        border-left: 0px;
+    }
+
+    .topbtn img{
+        width: 20px;
+        height: auto;
+    }
+
+    .smainbox{
+        margin-right: 20px;
+    }
+
+    .sbox{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        background: #37d8a7;
+    }
+
+    .icons1, .icons2{
+        padding-left: 1px;
+        text-align: left;
+    }
+}
